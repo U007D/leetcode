@@ -25,4 +25,9 @@
 
 mod consts;
 mod error;
-pub use error::{Error, Result};
+mod solution;
+
+pub use {
+    error::{Error, Result},
+    solution::Solution,
+};

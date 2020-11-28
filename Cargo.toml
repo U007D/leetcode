@@ -10,6 +10,7 @@ repository = "https://github.com/u007d/sliding_window_maximum"
 version = "0.1.0"
 
 [dependencies]
+assert2 = "0.3.3"
 thiserror = "1"
 
 [dev-dependencies]
